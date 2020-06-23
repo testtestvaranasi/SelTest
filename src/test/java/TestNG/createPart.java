@@ -29,7 +29,7 @@ public class createPart {
 		act = new Actions(driver);
 		driver.manage().window().maximize();
 	}	
-  @SuppressWarnings("null")
+ // @SuppressWarnings("null")
   /* 
 @Test
  public void verifylogin() throws InterruptedException {	      

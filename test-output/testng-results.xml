@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="131910" started-at="2020-06-22T13:06:23Z" finished-at="2020-06-22T13:08:35Z">
+  <suite name="Default suite" duration-ms="111585" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:45:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="131910" started-at="2020-06-22T13:06:23Z" finished-at="2020-06-22T13:08:35Z">
+    <test name="Default test" duration-ms="111585" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:45:30Z">
       <class name="TestNG.createPart">
-        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.createPart@5d5eef3d]" name="launch" is-config="true" duration-ms="6632" started-at="2020-06-22T18:36:23Z" finished-at="2020-06-22T18:36:29Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.createPart@224edc67]" name="launch" is-config="true" duration-ms="6391" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="verifyCreatePart()[pri:0, instance:TestNG.createPart@5d5eef3d]" name="verifyCreatePart" duration-ms="125265" started-at="2020-06-22T18:36:29Z" finished-at="2020-06-22T18:38:35Z">
+        <test-method status="PASS" signature="verifyCreatePart()[pri:0, instance:TestNG.createPart@224edc67]" name="verifyCreatePart" duration-ms="105174" started-at="2020-06-23T14:43:45Z" finished-at="2020-06-23T14:45:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreatePart -->
-        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.createPart@5d5eef3d]" name="close" is-config="true" duration-ms="1" started-at="2020-06-22T18:38:35Z" finished-at="2020-06-22T18:38:35Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.createPart@224edc67]" name="close" is-config="true" duration-ms="0" started-at="2020-06-23T14:45:30Z" finished-at="2020-06-23T14:45:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
