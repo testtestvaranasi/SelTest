@@ -54,6 +54,7 @@ public void verifySignoutMethod() throws InterruptedException, AWTException {
 	    Point signOut = driver.findElement(By.xpath("/html/body/div[23]/div[1]/div[1]/ul/li[7]/div/span")).getLocation();
 	     Robot roboteng = new Robot();	    
 	     roboteng.mouseMove(signOut.x,signOut.y+145);
+	     Thread.sleep(5000);
 	     WebElement markNews = driver.findElement(By.xpath("/html/body/div[23]/div[1]/div[1]/ul/li[7]/div/span"));
 	     markNews.click();
 	     
