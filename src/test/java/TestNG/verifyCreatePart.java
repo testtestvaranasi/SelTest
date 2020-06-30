@@ -15,14 +15,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class createPart {
+public class verifyCreatePart {
 	WebDriver driver;
 	Actions act;
-	@BeforeMethod
+	@BeforeMethod	
 	public void launch() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();	
@@ -30,9 +32,10 @@ public class createPart {
 		driver.manage().window().maximize();
 	}	
  // @SuppressWarnings("null")
-  /* 
+
+	/*
 @Test
- public void verifylogin() throws InterruptedException {	      
+ public void verifyalogin() throws InterruptedException {	      
 	    driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	    driver.findElement(By.name("username")).sendKeys("E1125316");
@@ -41,6 +44,7 @@ public class createPart {
 	 
  }
 
+ 
  @Test
   public void verifyCreatePartType() throws InterruptedException, AWTException {	                  
       driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
@@ -90,9 +94,11 @@ public class createPart {
        
        driver.close();
   }*/
+	
+
   
 @Test
-  public void verifyCreatePart() throws InterruptedException, AWTException {	                  
+  public void verifyCreatePartMethod() throws InterruptedException, AWTException {	                  
 	    driver.get("https://qa3dexp.nventco.com/3dpassport/login?service=https%3A%2F%2Fqa3dexp.nventco.com%2F3dspace%2Fcommon%2FemxNavigator.jsp");
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	    driver.findElement(By.name("username")).sendKeys("E1125316");
@@ -189,10 +195,9 @@ public class createPart {
   }
  
 
-
-
   @AfterMethod
   public void close() {
 	//driver.close();
+	//  driver.quit();
   }
 }

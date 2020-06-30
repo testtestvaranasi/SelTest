@@ -2,7 +2,8 @@
 <suite name="WebDriver">
 <test name="Test">
 <classes>
-<class name="TestNG.createPart"></class>
+<class name="TestNG.verifyLogin"></class>
+<class name="TestNG.verifyCreatePart"></class>
 </classes>
 </test>
 </suite>

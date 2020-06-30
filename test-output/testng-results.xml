@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111585" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:45:30Z">
+  <suite name="WebDriver" duration-ms="238317" started-at="2020-06-30T06:49:07Z" finished-at="2020-06-30T06:53:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="111585" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:45:30Z">
-      <class name="TestNG.createPart">
-        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.createPart@224edc67]" name="launch" is-config="true" duration-ms="6391" started-at="2020-06-23T14:43:39Z" finished-at="2020-06-23T14:43:45Z">
+    <test name="Test" duration-ms="238317" started-at="2020-06-30T06:49:07Z" finished-at="2020-06-30T06:53:06Z">
+      <class name="TestNG.verifyLogin">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="launch" is-config="true" duration-ms="6786" started-at="2020-06-30T06:49:07Z" finished-at="2020-06-30T06:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="verifyCreatePart()[pri:0, instance:TestNG.createPart@224edc67]" name="verifyCreatePart" duration-ms="105174" started-at="2020-06-23T14:43:45Z" finished-at="2020-06-23T14:45:30Z">
+        <test-method status="PASS" signature="verifySignoutMethod()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="verifySignoutMethod" duration-ms="89331" started-at="2020-06-30T06:49:14Z" finished-at="2020-06-30T06:50:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreatePart -->
-        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.createPart@224edc67]" name="close" is-config="true" duration-ms="0" started-at="2020-06-23T14:45:30Z" finished-at="2020-06-23T14:45:30Z">
+        </test-method> <!-- verifySignoutMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="close" is-config="true" duration-ms="144" started-at="2020-06-30T06:50:43Z" finished-at="2020-06-30T06:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- TestNG.createPart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="launch" is-config="true" duration-ms="5400" started-at="2020-06-30T06:50:44Z" finished-at="2020-06-30T06:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyloginMethod()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="verifyloginMethod" duration-ms="19124" started-at="2020-06-30T06:50:49Z" finished-at="2020-06-30T06:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.verifyLogin@46d56d67]" name="close" is-config="true" duration-ms="4332" started-at="2020-06-30T06:51:08Z" finished-at="2020-06-30T06:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.verifyLogin -->
+      <class name="TestNG.verifyCreatePart">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.verifyCreatePart@d8355a8]" name="launch" is-config="true" duration-ms="5325" started-at="2020-06-30T06:51:12Z" finished-at="2020-06-30T06:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyCreatePartMethod()[pri:0, instance:TestNG.verifyCreatePart@d8355a8]" name="verifyCreatePartMethod" duration-ms="107843" started-at="2020-06-30T06:51:18Z" finished-at="2020-06-30T06:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatePartMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.verifyCreatePart@d8355a8]" name="close" is-config="true" duration-ms="0" started-at="2020-06-30T06:53:06Z" finished-at="2020-06-30T06:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.verifyCreatePart -->
+    </test> <!-- Test -->
+  </suite> <!-- WebDriver -->
 </testng-results>
