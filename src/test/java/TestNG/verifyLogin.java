@@ -29,7 +29,7 @@ public class verifyLogin {
 		act = new Actions(driver);
 		driver.manage().window().maximize();
 	}	
-
+//Chandan
  
 @Test
  public void verifyloginMethod() throws InterruptedException {	      
