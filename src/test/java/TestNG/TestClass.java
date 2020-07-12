@@ -270,14 +270,14 @@ public class TestClass {
 		@Test
 		 public void verifyDUpdateEBOMthroughImport() throws InterruptedException, AWTException {
 				 
-			/*	 Robot robotlevel1 = new Robot();	     
+				 Robot robotlevel1 = new Robot();	     
 		         robotlevel1.mouseMove(55,320);
 			     
 			   //Clicks Left mouse button
 		         robotlevel1.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
-		         robotlevel1.mouseRelease(InputEvent.BUTTON1_DOWN_MASK); */
+		         robotlevel1.mouseRelease(InputEvent.BUTTON1_DOWN_MASK); 
 			
-			     clickLeftNavMenu(parentWinHandle, "catMenu", "li_ENCEBOMPowerViewCommand");
+			    // clickLeftNavMenu(parentWinHandle, "catMenu", "li_ENCEBOMPowerViewCommand");
 			
 			     System.out.println("UpdateEBOMthroughImport Level 1 button clicked");
 			     
@@ -287,6 +287,7 @@ public class TestClass {
 			     
 			     Robot robotlevel2 = new Robot();	     
 			     robotlevel2.mouseMove(900,320);
+			     Thread.sleep(10000);
 			     
 			   //Clicks Left mouse button
 			     robotlevel2.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
@@ -301,7 +302,7 @@ public class TestClass {
 			     
 			   
 			   //Once the browser is opened with the given Url ,by default it will not be full maximized , we need to maximize it by using the above code.  
-			     WebElement Element1 = driver.findElement(By.xpath("//*[@id=\"pagecontent\"]")); // To identify a frame i.e Frame1 we need to identify it by using either Id or Name properties.  
+			     WebElement Element1 = driver.findElement(By.name("pagecontent")); // To identify a frame i.e Frame1 we need to identify it by using either Id or Name properties.  
 		         // Here 'Element' variable holds Complete information about the frame such as Frame displayed / Exists ,Frame coordinates , etc.  
 		         driver.switchTo().frame(Element1) ;  
 			     
