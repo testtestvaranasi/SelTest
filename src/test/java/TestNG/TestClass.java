@@ -566,7 +566,11 @@ public void verifyGPromoteSpecificationMethod() throws InterruptedException, AWT
     driver.switchTo().window(parentWinHandle);
     
     Thread.sleep(10000);  
-	     
+    Robot r = new Robot();
+    r.keyPress(KeyEvent.VK_ENTER);
+    r.keyRelease(KeyEvent.VK_ENTER);
+
+    Thread.sleep(5000);	     
 }
 		
 @Test
