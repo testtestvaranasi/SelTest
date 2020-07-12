@@ -54,9 +54,13 @@ public class TestClass {
 			    //Thread.sleep(5000);
 			    driver.findElement(By.xpath("//div[@class='compass-small-over']")).click();
 			    
+			    System.out.println("My Social and Collaborative button clicked");
+			    
 			    Thread.sleep(5000);
 			    //driver.findElement(By.linkText("Classify & Reuse")).click();
 			    driver.findElement(By.xpath("//*[@id=\"icon-ENOCLRE_AP\"]")).click();
+			    
+			    System.out.println("Classify and Reuse button clicked");
 			    
 			    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -69,6 +73,7 @@ public class TestClass {
 		         
 		         driver.findElement(By.xpath("/html/body/form[1]/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[2]/div/table/tbody/tr/td[3]/a")).click();
 		         
+		         System.out.println("Parts button clicked");
 		         //tree node expand
 		         
 		         Thread.sleep(10000);
@@ -80,7 +85,7 @@ public class TestClass {
 			   //Clicks Left mouse button
 		         robotlevel1.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 		         robotlevel1.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("AddExistingPart Tree Level 1 button clicked");
+			     System.out.println("Electronic Parts button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -93,7 +98,7 @@ public class TestClass {
 			   //Clicks Left mouse button
 			     robotlevel2.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotlevel2.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("AddExistingPart Tree Level 2 button clicked");
+			     System.out.println("Capacitor Part button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -105,7 +110,7 @@ public class TestClass {
 			   //Clicks Left mouse button
 			     robotlevel3.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotlevel3.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("AddExistingPart Tree Level 3 button clicked");
+			     System.out.println("Capacitor Accessory Part button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -117,7 +122,7 @@ public class TestClass {
 			   //Clicks Left mouse button
 			     robotlevel4.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotlevel4.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("AddExistingPart Tree Level 4 button clicked");
+			     System.out.println("Capacitor Accessories button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -129,15 +134,12 @@ public class TestClass {
 			   //Clicks Left mouse button
 			     robotlevel5.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotlevel5.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("AddExistingPart Level 4 Content button clicked");
+			     System.out.println("Capacitor Accessories link button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
 			     Thread.sleep(5000);
-		                                      
-		                		 
-		        		 
-	            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		                                 
 			     
 			     //Once the browser is opened with the given Url ,by default it will not be full maximized , we need to maximize it by using the above code.  
 			     WebElement Element1 = driver.findElement(By.xpath("/html/body/div[1]/div[1]/iframe")); // To identify a frame i.e Frame1 we need to identify it by using either Id or Name properties.  
@@ -146,10 +148,11 @@ public class TestClass {
 		                 
 		         Thread.sleep(5000);
 		         driver.findElement(By.xpath("/html/body/form[1]/div[1]/div[1]/div[2]/div[1]/table/tbody/tr/td[1]")).click();
+		         System.out.println("Actions button clicked");
 		         
 		         Thread.sleep(5000);
 		         driver.findElement(By.xpath("/html/body/div[2]/div/ul/li[1]/a/label")).click();
-		         
+		         System.out.println("Actions-> Add Existing button clicked");
 		        
 	            Thread.sleep(20000);
 			     
@@ -184,7 +187,7 @@ public class TestClass {
 			   //Clicks Left mouse button
 			     robotpopupscreensubmit.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotpopupscreensubmit.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-			     System.out.println("Popup search button clicked");
+			     System.out.println("Popup search submit button clicked");
 			     
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
@@ -273,7 +276,7 @@ public class TestClass {
 				 Robot robotlevel1 = new Robot();	     
 		         robotlevel1.mouseMove(55,320);
 			     
-			   //Clicks Left mouse button
+			   //Clicks Left mouse button 
 		         robotlevel1.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 		         robotlevel1.mouseRelease(InputEvent.BUTTON1_DOWN_MASK); 
 			
