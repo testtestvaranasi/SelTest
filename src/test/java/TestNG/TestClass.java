@@ -543,7 +543,7 @@ public class TestClass {
 @Test
 public void verifyGPromoteSpecificationMethod() throws InterruptedException, AWTException {	     
            
-	  //parentWinHandle = driver.getWindowHandle();  
+	  //parentWinHandle = driver.getWindowHandle();  chandan
     
     Thread.sleep(10000);
     clickLeftNavMenu(parentWinHandle, "catMenu", "li_AEFLifecycle");
