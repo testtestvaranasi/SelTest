@@ -51,7 +51,8 @@ public class TestClass {
 		
 		@Test
 		 public void verifyBAddExistingParttoLibrary() throws InterruptedException, AWTException {	                  
-			    //Thread.sleep(5000);
+			    Thread.sleep(5000);
+			
 			    driver.findElement(By.xpath("//div[@class='compass-small-over']")).click();
 			    
 			    System.out.println("My Social and Collaborative button clicked");
@@ -319,6 +320,7 @@ public class TestClass {
 			     Robot robotlevel5 = new Robot();	     
 			     robotlevel5.mouseMove(1770,1015);
 			     
+			     Thread.sleep(10000); 
 			   //Clicks Left mouse button
 			     robotlevel5.mousePress(InputEvent.BUTTON1_DOWN_MASK); 
 			     robotlevel5.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
